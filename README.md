@@ -24,12 +24,14 @@ namespace MyPortfolio
         public List<string> Languages { get; set; }
         public List<string> Databases { get; set; }
         public List<string> Frameworks { get; set; }
+        public List<string> IDE { get; set; }
 
         public Skills()
         {
             Languages = new List<string> { "JavaScript""C#",, "TypeScript", "PHP",  "..." }; 
             Databases = new List<string> { "MySQL", "MongoDB", "PostgreSQL", "SQL Server" };
-            Frameworks = new List<string> { "Node js","React", "Ionic", "ASP.NET Core","Android","JQuery","...." } ;
+            Frameworks = new List<string> { "Node js","React", "Ionic", "ASP.NET Core","JQuery","...." } ;
+            IDE = new List<string> { "Android studio","Arduino", "PlatformIO","...." } ;
         }
     }
 
