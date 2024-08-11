@@ -28,7 +28,7 @@ namespace MyPortfolio
 
         public Skills()
         {
-            Languages = new List<string> { "JavaScript""C#",, "TypeScript", "PHP",  "..." }; 
+            Languages = new List<string> { "JavaScript","C#", "TypeScript", "PHP",  "..." }; 
             Databases = new List<string> { "MySQL", "MongoDB", "PostgreSQL", "SQL Server" };
             Frameworks = new List<string> { "Node js","React", "Ionic", "ASP.NET Core","JQuery","...." } ;
             IDE = new List<string> { "Android studio","Arduino", "PlatformIO","...." } ;
